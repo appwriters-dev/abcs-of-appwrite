@@ -14,7 +14,6 @@ docker compose version
 ```
 
 > **Did you know**: Appwrite can run on Raspberry Pi as well, how cool is that?
-> 
 
 ### System Requirement
 

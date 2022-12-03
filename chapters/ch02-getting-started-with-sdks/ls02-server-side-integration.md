@@ -21,7 +21,7 @@ Then click on **Next** button and select the scope of the API Key. Only the give
 
 ![API Key Scope](../../images/api-key-scope.png)
 
-For example if you give your key only [databases.read](http://database.read) scope then the key can only read databases and do nothing more. It is always recommended to give keys only the limited access that is required by our application. We can always edit and update the access the key has. Once you select the scopes and click on the **create** button the API key will be created and you can get it’s secret and other details. 
+For example if you give your key only [databases.read](http://database.read) scope then the key can only read databases and do nothing more. It is always recommended to give keys only the limited access that is required by our application. We can always edit and update the access the key has. Once you select the scopes and click on the **create** button the API key will be created and you can get it’s secret and other details.
 
 ![API Key Details](../../images/api-key-details.png)
 
@@ -101,20 +101,22 @@ const sdk = require('node-appwrite');
 let client = new sdk.Client();
 
 client
-    .setEndpoint('https://[HOSTNAME_OR_IP]/v1') // Your API Endpoint
-    .setProject('5df5acd0d48c2') // Your project ID
-    .setKey('919c2d18fb5d4...a2ae413da83346ad2') // Your secret API key
-    .setSelfSigned() // Use only on dev mode with a self-signed SSL cert
-;
+	.setEndpoint('https://[HOSTNAME_OR_IP]/v1') // Your API Endpoint
+	.setProject('5df5acd0d48c2') // Your project ID
+	.setKey('919c2d18fb5d4...a2ae413da83346ad2') // Your secret API key
+	.setSelfSigned(); // Use only on dev mode with a self-signed SSL cert
 
 let users = new sdk.Users(client);
 let promise = users.create(ID.unique(), 'email@example.com', 'password');
 
-promise.then(function (response) {
-    console.log(response);
-}, function (error) {
-    console.log(error);
-});
+promise.then(
+	function (response) {
+		console.log(response);
+	},
+	function (error) {
+		console.log(error);
+	}
+);
 ```
 
 If you look at the codes above for Dart and NodeJS they look pretty similar. Apart from the subtle difference in the syntax of the language itself, the SDK is pretty similar on how they are initialized and use. That’s the beauty of Appwrite’s SDK, they are consistent across platforms and languages as far as it can be without hurting the platforms norms.

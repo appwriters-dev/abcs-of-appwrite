@@ -12,10 +12,10 @@ docker compose exec appwrite doctor
 It should show the output similar to the following
 
 ```jsx
-  __   ____  ____  _  _  ____  __  ____  ____     __  __  
- / _\ (  _ \(  _ \/ )( \(  _ \(  )(_  _)(  __)   (  )/  \ 
+  __   ____  ____  _  _  ____  __  ____  ____     __  __
+ / _\ (  _ \(  _ \/ )( \(  _ \(  )(_  _)(  __)   (  )/  \
 /    \ ) __/ ) __/\ /\ / )   / )(   )(   ) _)  _  )((  O )
-\_/\_/(__)  (__)  (_/\_)(__\_)(__) (__) (____)(_)(__)\__/ 
+\_/\_/(__)  (__)  (_/\_)(__\_)(__) (__) (____)(_)(__)\__/
 
 👩‍⚕️ Running Appwrite Doctor for version 1.0.0 ...
 
@@ -77,7 +77,6 @@ This tells docker to look for configuration change and restart if there’s any 
 After the above command successfully executes, if you try to signup again, you should be able to create new account in the console.
 
 > **Dont Forget** to run the docker command whenever you change values in `.env` file, otherwise you will still be running Appwrite with old values.
-> 
 
 To make sure that Appwrite is running with the up-to date values for environment variables, you can use `env` CLI command provided by Appwrite. While still in the Appwrite installation folder with the `docker-compose.yml` file in the terminal run the following command
 
