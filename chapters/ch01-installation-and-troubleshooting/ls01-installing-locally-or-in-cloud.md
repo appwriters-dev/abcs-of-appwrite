@@ -1,6 +1,6 @@
 ---
 id: ls01-installing-locally-or-in-cloud
-title: Installing Locally on in Cloud
+title: Installing Locally or in Cloud
 ---
 
 Installing and running Appwrite is as easy as running one command. Appwrite can be installed and run on any system that supports Docker either it’s local or in the cloud. So make sure you have [Docker](https://docker.com) installed in the system you are trying to install Appwrite. Docker is a free tool, which you can download and install from [https://www.docker.com/get-started](https://www.docker.com/get-started/). You can make sure that the docker and docker compose is installed correctly by running the following command in your terminal.
