@@ -22,8 +22,8 @@ Appwrite from scratch.
    1. Collections
    2. Documents
    3. Pagination
-7. Cloud Functions
-8. Realtime APIs
-9. Webhooks
-10. CLI
+7.  CLI
+8. Cloud Functions
+9. Realtime APIs
+10. Webhooks
 11. Avatars APIs
