@@ -30,7 +30,7 @@ docker run -it --rm \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     --volume "$(pwd)"/appwrite:/usr/src/code/appwrite:rw \
     --entrypoint="install" \
-    appwrite/appwrite:1.0.0
+    appwrite/appwrite:1.1.2
 ```
 
 **Windows**
@@ -42,7 +42,7 @@ docker run -it --rm ^
     --volume //var/run/docker.sock:/var/run/docker.sock ^
     --volume "%cd%"/appwrite:/usr/src/code/appwrite:rw ^
     --entrypoint="install" ^
-    appwrite/appwrite:1.0.0
+    appwrite/appwrite:1.1.2
 ```
 
 PowerShell
@@ -52,10 +52,10 @@ docker run -it --rm ,
     --volume /var/run/docker.sock:/var/run/docker.sock ,
     --volume ${pwd}/appwrite:/usr/src/code/appwrite:rw ,
     --entrypoint="install" ,
-    appwrite/appwrite:1.0.0
+    appwrite/appwrite:1.1.2
 ```
 
-The above command will pull the Appwrite docker image and then install and run Appwrite version 1.0.0. You usually just need to change `1.0.0` to the desired latest version of Appwrite in order to install that particular version. You can get the latest command to install latest available version from the official installation docs at [https://appwrite.io/docs/installation](https://appwrite.io/docs/installation).
+The above command will pull the Appwrite docker image and then install and run Appwrite version 1.0.0. You usually just need to change `1.1.2` to the desired latest version of Appwrite in order to install that particular version. You can get the latest command to install latest available version from the official installation docs at [https://appwrite.io/docs/installation](https://appwrite.io/docs/installation).
 
 After you run the above installation command, it will ask you a series of questions.
 

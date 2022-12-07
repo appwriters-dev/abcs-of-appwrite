@@ -66,7 +66,7 @@ Appwrite’s console provides unrestricted access to Appwrite and it’s resourc
 2. `_APP_CONSOLE_WHITELIST_EMAILS` Another option, most suitable for organizations or small teams is to whitelist the emails that can signup to create new account on the console. In order to enable this pass a comma separated list of emails in this variable. For example setting `_APP_CONSOLE_WHITELIST_EMAILS=user1@organization.com,user2@organization.com` will allow only those emails to sign up to create account in the console. Make sure to set `_APP_CONSOLE_WHITELIST_ROOT=disabled` to use the whitelisted emails.
 3. `_APP_CONSOLE_WHITELIST_IPS` Finally one more option to limit creation of users in console only for the user sharing the same set of IP addresses. This is suitable for a team working with a VPN service or a company IP. To enable this you can pass a comma separated list of allowed IP addresses.
 
-### Setting up Loggers
+<!--- ### Setting up Loggers
 
 1. Logging Provider to receive important system logs
 
@@ -82,3 +82,4 @@ Appwrite’s console provides unrestricted access to Appwrite and it’s resourc
 
 - Running Multiple Instances of Appwrite in Same Machine ??
 - One click DO setup?
+-->

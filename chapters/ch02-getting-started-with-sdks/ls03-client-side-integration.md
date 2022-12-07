@@ -13,8 +13,9 @@ In your client project add the SDK as the dependency. For example for Flutter yo
 dependencies:
 	appwrite: "<version>"
 ```
-
+<!--
 // examples for each platform?
+-->
 
 ### Initialize with Endpoint and Project ID
 
@@ -23,3 +24,5 @@ Like with server side SDKs the client side SDKs do need endpoint and project ID 
 ### Add Platform
 
 In order for the server to validate the request you need to add details of your application that you are connecting from. You can do that in the project dashboard by adding a platform. Based on which client platform you are building for you need different information to let server know about our application. If you are building a web application you just need the URL that your application will be deployed to so that Appwrite will know all the requests coming from that URL is a valid request. Similarly if you are building a mobile or a desktop application you might need to add your application ID. We will look at how we can add each supported platform in the upcoming sections.
+
+> Coming soon..
