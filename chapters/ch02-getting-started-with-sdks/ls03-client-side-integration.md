@@ -13,6 +13,7 @@ In your client project add the SDK as the dependency. For example for Flutter yo
 dependencies:
 	appwrite: "<version>"
 ```
+
 <!-- TODO examples for each platform? -->
 
 ### Initialize with Endpoint and Project ID
