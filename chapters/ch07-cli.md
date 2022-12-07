@@ -5,7 +5,7 @@ title: Command Line Interface
 
 Coming soon!
 
-<!-- 
+<!--
 # Getting Started with Appwrite's new CLI
 
 Appwrite's latest CLI comes featured pack. Previously you had to create project and then get the key in order for your CLI to connect. Now, all you need to do is signup in your Appwrite console, and you can use the Appwrite's new CLI to do the rest of the task.
