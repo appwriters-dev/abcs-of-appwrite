@@ -53,10 +53,14 @@ Next, you need to setup the SMTP related environment variables to setup email se
 
 More details regarding the environment variables associated with email server can be found at the official environment documentation at [https://appwrite.io/docs/environment-variables#smtp](https://appwrite.io/docs/environment-variables#smtp).
 
+<!-- TODO example setting up mailgrind or another email provider -->
+
 By now you know how to setup basic server configurations and also know how to setup email service. Next up, if you want to use phone based authentication in your mobile application, you also need to setup providers for phone authentication.
 
 1. `_APP_PHONE_PROVIDER` SMS service provider to be used for phone authentication. You need to provide the value in the following format. `phone://[USER]:[SECRET]@[PROVIDER]. The providers supported as of now are `twilio`, `text-magic` and`telesign`.
 2. `_APP_PHONE_FROM` Phone number used when sending out messages. Must start with a leading `+` sign and maximum of 15 digits without spaces. This should be the phone number allowed by your phone provider as a sender number.
+
+<!-- TODO example setting up twillo -->
 
 ### Giving Access to Other Team Members
 
