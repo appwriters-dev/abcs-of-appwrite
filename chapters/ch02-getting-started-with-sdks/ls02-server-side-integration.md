@@ -68,7 +68,7 @@ dependencies:
 
 Once you install the SDK, next before using, you need to initialize it with endpoint, project and API Key. To get the endpoint and project head over to settings page for your project in the console. There you can find the project ID and the API Endpoint.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a038f9d3-cca7-4c6e-b1b1-9ba4d876aefc/Untitled.png)
+![Project Settings](../images/project-settings.png)
 
 Dart SDK
 
