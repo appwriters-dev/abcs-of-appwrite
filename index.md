@@ -4,26 +4,7 @@ title: ABCs of Appwrite
 author: Damodar Lohani
 ---
 
-# ABCs of Appwrite
+Appwrite is a backend server for web, mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment and scaling. It is a complete backend solution for Web, Mobile, and Flutter developers with a set of easy-to-use SDKs and a console to manage your project. It is built from the ground up to be the perfect backend solution for modern developers. Apart from being a great backend-as-as-service, Appwrite is open-source and self-hostable. This means, Appwrite gives you complete control over your data and infrastructure.
 
-Appwrite from scratch.
+This book will help you get started with Appwrite. It is a step-by-step guide to help you understand the basics of Appwrite and how to use it to build your next project. It is a great place to start if you are new to Appwrite. It will also be a reference to understand different features and services of Appwrite and how to use them effectively in your projects.
 
-## Chapters
-
-1. Installation and Troubleshooting
-2. SDKs
-3. Authentication & User Management
-4. Permissions
-5. Storage
-   1. Buckets
-   2. Files
-   3. Image manipulation
-6. Database
-   1. Collections
-   2. Documents
-   3. Pagination
-7. CLI
-8. Cloud Functions
-9. Realtime APIs
-10. Webhooks
-11. Avatars APIs
