@@ -1,6 +1,10 @@
 ---
 id: abcs-of-appwrite
 title: ABCs of Appwrite
+homePageTitle: Get Started with Appwrite <br /> Best Open Source BaaS
+homePageDescription: Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs. With services like authentication and user management, databases, storage, cloud functions and more, you can build any kind of applications that you can imagine.
+homePageMetaDescription: Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs. With services like authentication and user management, databases, storage, cloud functions and more, you can build any kind of applications that you can imagine.
+description: Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs. With services like authentication and user management, databases, storage, cloud functions and more, you can build any kind of applications that you can imagine.
 author: Damodar Lohani
 ---
 
