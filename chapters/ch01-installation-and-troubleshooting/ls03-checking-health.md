@@ -1,5 +1,5 @@
 ---
-id: ls02-checking-health
+id: ls03-checking-health
 title: Checking Appwrite System Health
 ---
 
