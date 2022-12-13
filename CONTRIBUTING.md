@@ -24,7 +24,7 @@ doc-548-submit-a-pull-request-section-to-contribution-guide
 
 When `TYPE` can be:
 
-- **feat** - is a new feature 
+- **feat** - is a new feature
 - **fix** - a bug fix
 - **refactor** - change that neither fixes a bug nor adds a feature
 
