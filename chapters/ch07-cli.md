@@ -3,6 +3,8 @@ id: ch07-cli
 title: Command Line Interface
 ---
 
+Appwrite provides a powerful CLI tool to interact with your server and projects. It allows you to manage your projects and resources via command line. It is also useful for automation and scripting as well as CI/CD pipelines.
+
 Coming soon!
 
 <!--
