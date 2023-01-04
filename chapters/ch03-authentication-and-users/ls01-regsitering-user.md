@@ -1,17 +1,9 @@
 ---
-id: ls01-account-and-authentication
-title: Account and Authentication
+id: ls01-registering-user
+title: Registering User
 ---
 
-Appwrite provides [Account](https://appwrite.io/docs/client/account) service to manage user accounts and authentication on your applications. You use this ervice to register users to your application, authenticat users, and manage user profiles. Let's learn how to get started with Account service.
-
-## Getting Started
-
-Once you have added and configured the Appwrite SDK in your application as we discussed in previous chapter, you can start using the Account service. For that, you first need to instantiate the Account service with an instance of the Appwrite client.
-
-```dart
-final account = Account(client);
-```
+Appwrite provides [Account](https://appwrite.io/docs/client/account) service to manage user accounts and authentication on your applications. You use this ervice to register users to your application, authenticat users, and manage user profiles. Let's learn how to register user using the Account service.
 
 ## Registering Users
 
@@ -105,11 +97,5 @@ class _SignUpFormState extends State<SignUpForm> {
 }
 ```
 
-
-Account service provides the following methods:
-
-* Anynomous (`account.createAnonymousSession`)
-* Using 30+ OAuth2 providers (`account.createOAuth2Session`)
-* Magic Link (`account.createMagicURLSession`)
-* Phone Number (`account.createPhoneSession`)
+Registering user is the first step. In order to authenticate your user, you must create a session for your user. Let's learn how to do that in the next section.
 
