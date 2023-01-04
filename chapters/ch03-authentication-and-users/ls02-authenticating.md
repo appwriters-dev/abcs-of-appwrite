@@ -1,5 +1,5 @@
 ---
-id: ls03-authenticating
+id: ls02-authenticating
 title: Authenticating
 ---
 
