@@ -31,3 +31,36 @@ final session = await account.createAnonymousSession();
 ```
 
 That's it, once you create an anonymous session, all the subsequent request from the SDK using the same `Client` instance will include the new user's cookie in the request headers automatically.
+
+## Create OAuth2 Session
+
+Appwrite supports OAuth2 authentication. You can use the `account.createOAuth2Session` method to create a session for the user using OAuth2. The method requires the `provider` parameter. The `provider` parameter is the name of the OAuth2 provider. For example, if you want to use Google OAuth2, the `provider` parameter will be `google`.
+
+You have to enable the provider in the Appwrite console before you can use it.
+
+```dart
+final session = await account.createOAuth2Session(provider: 'google');
+```
+
+> Note: Creating a OAuth2 session also creates a new user account if the account doesn't exist for the email associated with the OAuth2 account.
+
+## Create Magic Link Session
+
+Appwrite also supports Magic Link authentication. You can use the `account.createMagicURLSession` method to create a session for the user using Magic Link. The method requires the `email` parameter. The `email` parameter is the email of the user.
+
+```dart
+final session = await account.createMagicURLSession(email: 'user1@appwrite.io');
+```
+
+> Note: Creating a Magic Link session also creates a new user account if the account doesn't exist for the email.
+
+## Create Phone Number Session
+
+Appwrite also supports Phone Number authentication. You can use the `account.createPhoneSession` method to create a session for the user using Phone Number. The method requires the `phoneNumber` parameter. The `phoneNumber` parameter is the phone number of the user.
+
+```dart
+final session = await account.createPhoneSession(phoneNumber: '+123456789');
+```
+
+> Note: Creating a Phone Number session also creates a new user account if the account doesn't exist for the phone number.
+
