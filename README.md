@@ -1,4 +1,4 @@
-# ABCs of Appwrite
+# [ABCs of Appwrite](https://abcsofappwrite.appwriters.dev)
 
 Learn Appwrite basics from scratch.
 
