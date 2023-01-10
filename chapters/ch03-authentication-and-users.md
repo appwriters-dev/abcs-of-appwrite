@@ -11,7 +11,7 @@ This chapter will cover following Appwrite services:
 * Users
 * Teams
 
-To use any of the Appwrite's services, you need to instantiate the service with an instance of the Appwrite client. You need to configure Appwrite SDK and client like we discussed in the previous chapter. Once that is done, you can instantiate the services like this:
+To use any of the Appwrite's services, you need to instantiate the service with an instance of the Appwrite client. You need to configure Appwrite SDK and client like we discussed in the previous chapter. Once that is done, you can instantiate the services as the following:
 
 ```dart
 final account = Account(client);
