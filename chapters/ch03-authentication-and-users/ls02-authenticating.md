@@ -39,7 +39,9 @@ Appwrite supports OAuth2 authentication. You can use the `account.createOAuth2Se
 You have to enable the provider in the Appwrite console before you can use it.
 
 ```dart
-final session = await account.createOAuth2Session(provider: 'google');
+final session = await account.createOAuth2Session(
+  provider: 'google',
+);
 ```
 
 > Note: Creating a OAuth2 session also creates a new user account if the account doesn't exist for the email associated with the OAuth2 account.
@@ -49,7 +51,9 @@ final session = await account.createOAuth2Session(provider: 'google');
 Appwrite also supports Magic Link authentication. You can use the `account.createMagicURLSession` method to create a session for the user using Magic Link. The method requires the `email` parameter. The `email` parameter is the email of the user.
 
 ```dart
-final session = await account.createMagicURLSession(email: 'user1@appwrite.io');
+final session = await account.createMagicURLSession(
+  email: 'user1@appwrite.io',
+);
 ```
 
 > Note: Creating a Magic Link session also creates a new user account if the account doesn't exist for the email.
@@ -59,7 +63,9 @@ final session = await account.createMagicURLSession(email: 'user1@appwrite.io');
 Appwrite also supports Phone Number authentication. You can use the `account.createPhoneSession` method to create a session for the user using Phone Number. The method requires the `phoneNumber` parameter. The `phoneNumber` parameter is the phone number of the user.
 
 ```dart
-final session = await account.createPhoneSession(phoneNumber: '+123456789');
+final session = await account.createPhoneSession(
+  phoneNumber: '+123456789',
+);
 ```
 
 > Note: Creating a Phone Number session also creates a new user account if the account doesn't exist for the phone number.
