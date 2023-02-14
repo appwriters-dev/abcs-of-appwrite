@@ -9,6 +9,7 @@ Learn Appwrite basics from scratch.
    - [x] Installing locally
    - [x] Checking health
    - [x] Production tips
+   - [x] Understanding Appwrite Projects
 2. SDKs
    - [x] Types of Integration (Server and Client)
    - [x] Server side integration
