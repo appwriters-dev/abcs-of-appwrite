@@ -30,7 +30,12 @@ Learn Appwrite basics from scratch.
    - [ ] Documents
    - [ ] Pagination
 7. CLI
+   - [ ] Introduction & Installation
+   - [ ] Using CLI
+   - [ ] Cheatsheet
 8. Cloud Functions
+   - [ ] Introduction
+   - [ ] Creating and Deploying
 9.  Realtime APIs
 10.  Webhooks
 11. Avatars APIs
