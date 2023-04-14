@@ -1,5 +1,6 @@
 ---
 id: ls02-authenticating
+slug: authenticating
 title: Authenticating
 ---
 

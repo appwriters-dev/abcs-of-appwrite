@@ -1,5 +1,6 @@
 ---
 id: ch06-databases
+slug: databases
 title: Databases
 ---
 

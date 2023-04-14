@@ -1,5 +1,6 @@
 ---
 id: ls01-registering-user
+slug: registering-users
 title: Registering User
 ---
 

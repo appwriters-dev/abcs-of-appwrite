@@ -1,5 +1,6 @@
 ---
 id: ls04-server-side-user-management
+slug: server-side-user-management
 title: Server-Side User Management
 ---
 

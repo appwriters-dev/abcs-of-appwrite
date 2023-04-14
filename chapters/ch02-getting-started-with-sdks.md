@@ -1,5 +1,6 @@
 ---
 id: ch02-getting-started-with-sdks
+slug: getting-started-with-sdks
 title: Getting Started with Appwrite’s Client and Server SDKs
 ---
 

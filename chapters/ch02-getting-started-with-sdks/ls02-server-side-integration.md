@@ -1,5 +1,6 @@
 ---
 id: ls02-server-side-integration
+slug: server-side-integration
 title: Server Side SDKs
 ---
 

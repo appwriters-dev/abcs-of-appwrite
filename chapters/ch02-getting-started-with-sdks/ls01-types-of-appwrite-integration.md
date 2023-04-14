@@ -1,5 +1,6 @@
 ---
 id: ls01-types-of-appwrite-integration
+slug: types-of-appwrite-integration
 title: Types of Appwrite Integration
 ---
 

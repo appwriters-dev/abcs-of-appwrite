@@ -1,5 +1,6 @@
 ---
 id: ls04-production-tips
+slug: production-tips
 title: Configuring Appwrite for Production
 ---
 

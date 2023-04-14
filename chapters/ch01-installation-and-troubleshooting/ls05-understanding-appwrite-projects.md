@@ -1,5 +1,6 @@
 ---
 id: ls05-understanding-appwrite-projects
+slug: understanding-projects
 title: Understanding Appwrite Projects
 ---
 

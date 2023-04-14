@@ -1,5 +1,6 @@
 ---
 id: ls03-documents
+slug: documents
 title: Documents
 ---
 

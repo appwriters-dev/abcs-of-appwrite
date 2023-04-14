@@ -1,5 +1,6 @@
 ---
 id: ls01-introduction-to-appwrite
+slug: introduction-to-appwrite
 title: Introduction to Appwrite
 ---
 

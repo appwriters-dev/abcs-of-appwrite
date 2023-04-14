@@ -1,5 +1,6 @@
 ---
 id: ls01-buckets
+slug: buckets
 title: Buckets
 ---
 

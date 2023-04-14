@@ -1,5 +1,6 @@
 ---
 id: ls02-files
+slug: files
 title: Files
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: ls03-image-manipulation
+slug: image-manipulation
 title: Image Manipulation
 ---
 

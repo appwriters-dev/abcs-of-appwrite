@@ -1,5 +1,6 @@
 ---
 id: ls03-teams-and-roles
+slug: teams-and-roles
 title: Teams and Roles
 ---
 

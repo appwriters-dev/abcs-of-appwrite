@@ -1,5 +1,6 @@
 ---
 id: ls02-collections
+slug: collections
 title: Collections
 ---
 

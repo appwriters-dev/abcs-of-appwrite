@@ -1,5 +1,6 @@
 ---
 id: ch08-cloud-functions
+slug: cloud-functions
 title: Cloud Functions
 ---
 

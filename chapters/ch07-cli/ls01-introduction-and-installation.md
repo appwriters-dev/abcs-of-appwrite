@@ -1,5 +1,6 @@
 ---
 id: ls01-introduction-and-installation
+slug: introduction-and-installation
 title: Introduction and Installation
 ---
 

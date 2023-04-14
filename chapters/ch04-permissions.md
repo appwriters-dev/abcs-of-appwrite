@@ -1,5 +1,6 @@
 ---
 id: ch04-permissions
+slug: understanding-permissions
 title: Permissions
 ---
 

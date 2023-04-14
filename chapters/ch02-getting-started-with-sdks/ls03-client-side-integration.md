@@ -1,5 +1,6 @@
 ---
 id: ls03-client-side-integration
+slug: client-side-integration
 title: Client Side SDKs
 ---
 

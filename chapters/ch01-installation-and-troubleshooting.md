@@ -1,5 +1,6 @@
 ---
 id: ch01-installation-and-troubleshooting
+slug: installation-and-troubleshooting
 title: Installation & Troubleshooting
 ---
 

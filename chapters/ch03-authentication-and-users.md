@@ -1,5 +1,6 @@
 ---
 id: ch03-authentication-and-users
+slug: authentication-and-user-management
 title: Authentication and Users Management
 ---
 

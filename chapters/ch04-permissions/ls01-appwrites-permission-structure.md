@@ -1,5 +1,6 @@
 ---
 id: ls01-appwrites-permission-structure
+slug: structure
 title: Appwrite's Permission Structure
 ---
 

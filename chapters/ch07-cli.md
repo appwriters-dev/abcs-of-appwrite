@@ -1,5 +1,6 @@
 ---
 id: ch07-cli
+slug: cli
 title: Command Line Interface
 ---
 

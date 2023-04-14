@@ -1,5 +1,6 @@
 ---
 id: ls02-installing-locally-or-in-cloud
+slug: installing-locally-or-in-cloud
 title: Installing Locally or in Cloud
 ---
 

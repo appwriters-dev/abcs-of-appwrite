@@ -1,5 +1,6 @@
 ---
 id: ch05-storage
+slug: storage
 title: Storage
 ---
 

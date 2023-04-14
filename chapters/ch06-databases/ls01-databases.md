@@ -1,5 +1,6 @@
 ---
 id: ls01-databases
+slug: databases
 title: Databases
 ---
 
