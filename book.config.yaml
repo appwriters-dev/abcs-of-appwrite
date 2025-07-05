@@ -1,0 +1,42 @@
+id: "abcs-of-appwrite"
+title: "ABCs of Appwrite"
+description: "Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers."
+author: "Damodar Lohani"
+version: "1.0.0"
+theme: "default"
+
+# Features enabled for this book
+features:
+  - "search"
+  - "progress-tracking"
+  - "dark-mode"
+  - "print-friendly"
+
+# Navigation configuration
+navigation:
+  style: "sidebar"
+  collapsible: true
+  showProgressBar: true
+
+# Book assets
+assets:
+  favicon: "abcs-of-appwrite.png"
+  logo: "abcs-of-appwrite.png"
+  ogImage: "abcs-of-appwrite.png"
+
+# SEO configuration
+seo:
+  sitemap: true
+  robots: true
+  gtag: ""
+
+# Homepage content
+homePageTitle: "Get Started with Appwrite <br /> Best Open Source BaaS"
+homePageDescription: "Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs. With services like authentication and user management, databases, storage, cloud functions and more, you can build any kind of applications that you can imagine."
+homePageMetaDescription: "Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs."
+
+# Color theme (optional)
+colors:
+  primary: "#667eea"
+  secondary: "#764ba2"
+  accent: "#a8dae5"
