@@ -29,14 +29,94 @@ seo:
   sitemap: true
   robots: true
   gtag: ""
+  keywords:
+    - "Appwrite"
+    - "Backend as a Service"
+    - "BaaS"
+    - "Open Source"
+    - "Backend Development"
+    - "Web Development"
+    - "Mobile Development"
+    - "Flutter Backend"
+    - "REST API"
+    - "Database"
+    - "Authentication"
+    - "Cloud Functions"
+    - "Storage"
+    - "Realtime"
+    - "Self-hosted Backend"
+  canonicalUrl: "https://abcsofappwrite.appwriters.dev"
+  structuredData:
+    type: "Course"
+    organization: "Master Flutter"
+    publisher: "Damodar Lohani"
+    datePublished: "2023-01-01"
+    dateModified: "2024-12-01"
+    inLanguage: "en-US"
+    audience: "Developers, Backend Engineers, Mobile Developers"
+  openGraph:
+    type: "book"
+    siteName: "Master Flutter"
+    locale: "en_US"
+    image:
+      url: "https://abcsofappwrite.appwriters.dev/og-abcs-of-appwrite.png"
+      width: 1200
+      height: 630
+      alt: "ABCs of Appwrite - Complete Guide to Open Source Backend"
+  twitter:
+    card: "summary_large_image"
+    site: "@masterflutter"
+    creator: "@damordl"
+  metaTags:
+    viewport: "width=device-width, initial-scale=1, viewport-fit=cover"
+    themeColor: "#667eea"
+    appleMobileWebAppCapable: "yes"
+    appleMobileWebAppStatusBarStyle: "default"
+    appleMobileWebAppTitle: "ABCs of Appwrite"
+    msApplicationTileColor: "#667eea"
+    msApplicationTileImage: "/abcs-of-appwrite.png"
 
 # Homepage content
 homePageTitle: "Get Started with Appwrite <br /> Best Open Source BaaS"
 homePageDescription: "Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs. With services like authentication and user management, databases, storage, cloud functions and more, you can build any kind of applications that you can imagine."
-homePageMetaDescription: "Use this guide to get started with Appwrite, an open source backend server for web, mobile and Flutter developers. It provides a well designed set of REST and realtime APIs that you can customize to your applications needs."
+homePageMetaDescription: "Complete guide to Appwrite - the open source Backend as a Service (BaaS) platform. Learn authentication, databases, storage, cloud functions, and more for web, mobile, and Flutter development."
 
-# Color theme (optional)
+# Color theme
 colors:
   primary: "#667eea"
   secondary: "#764ba2"
   accent: "#a8dae5"
+  success: "#10b981"
+  warning: "#f59e0b"
+  error: "#ef4444"
+
+# Learning path configuration
+learning:
+  approach: "practical"
+  difficulty: "beginner-to-intermediate"
+  estimatedHours: 40
+  prerequisites:
+    - "Basic understanding of web development"
+    - "Familiarity with REST APIs"
+    - "Basic programming knowledge"
+
+# Additional metadata for SEO
+metadata:
+  category: "Backend Development"
+  subcategory: "Backend as a Service"
+  tags:
+    - "tutorial"
+    - "guide"
+    - "backend"
+    - "appwrite"
+    - "baas"
+    - "open-source"
+  targetAudience:
+    - "Web Developers"
+    - "Mobile App Developers"
+    - "Flutter Developers"
+    - "Backend Engineers"
+    - "Full-stack Developers"
+  skillLevel: "Beginner to Intermediate"
+  certification: false
+  freeAccess: true
